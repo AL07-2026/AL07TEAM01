@@ -11,7 +11,7 @@ function Layout() {
       <header className="border-b border-border">
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
           <Link className="font-semibold" to="/">
-            React SPA
+            AL07 Team 01
           </Link>
           <nav className="flex gap-4 text-sm text-muted-foreground">
             <Link className="hover:text-foreground" to="/">
