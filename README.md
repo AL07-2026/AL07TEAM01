@@ -21,6 +21,8 @@
 
 이후에는 `npm run dev`로 개발 서버를 실행합니다.
 
+전체 검증만 다시 실행하려면 `npm run validate`를 사용합니다.
+
 PowerShell에서 `npm.ps1` 실행 정책 오류가 발생하면 명령 프롬프트를 사용하거나
 `npm.cmd run setup`으로 실행하세요. Node나 프로젝트를 다시 설치할 필요는 없습니다.
 
