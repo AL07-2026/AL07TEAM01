@@ -1,4 +1,4 @@
-import { House, Layers3 } from 'lucide-react';
+import { Heart, House, Layers3 } from 'lucide-react';
 import { createBrowserRouter, Link, Outlet } from 'react-router';
 import { RouterProvider } from 'react-router/dom';
 
@@ -43,8 +43,9 @@ function HomePage() {
         <Button className="h-18 rounded-lg border-4 border-amber-500 bg-amber-200 px-7 text-base font-medium text-slate-800 hover:bg-amber-200">
           버튼2
         </Button>
-        <Button className="h-18 rounded-lg border-4 border-emerald-500 bg-emerald-200 px-7 text-base font-medium text-slate-800 hover:bg-emerald-200">
-          버튼3
+        <Button className="h-18 rounded-lg border-4 border-pink-500 bg-pink-200 px-7 text-base font-medium text-slate-800 hover:bg-pink-200">
+          <Heart className="size-5 fill-current" aria-hidden="true" />
+          Core
         </Button>
         <Button className="h-18 rounded-lg border-4 border-rose-500 bg-rose-200 px-7 text-base font-medium text-slate-800 hover:bg-rose-200">
           버튼4
