@@ -43,6 +43,9 @@ function HomePage() {
         <Button className="h-18 rounded-lg border-4 border-amber-500 bg-amber-200 px-7 text-base font-medium text-slate-800 hover:bg-amber-200">
           버튼2
         </Button>
+        <Button className="h-18 rounded-lg border-4 border-emerald-500 bg-emerald-200 px-7 text-base font-medium text-slate-800 hover:bg-emerald-200">
+          버튼3
+        </Button>
       </div>
     </section>
   );
