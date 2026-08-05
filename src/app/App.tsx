@@ -48,7 +48,7 @@ function HomePage() {
           Core
         </Button>
         <Button className="h-18 rounded-lg border-4 border-rose-500 bg-rose-200 px-7 text-base font-medium text-slate-800 hover:bg-rose-200">
-          버튼4
+          noticeboard
         </Button>
       </div>
     </section>
