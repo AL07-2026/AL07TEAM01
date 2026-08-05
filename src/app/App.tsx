@@ -36,9 +36,12 @@ function HomePage() {
   return (
     <section className="overflow-hidden rounded-lg border-4 border-neutral-500 bg-white shadow-sm">
       <div className="h-9 border-b-4 border-teal-600 bg-teal-400" />
-      <div className="flex min-h-76 items-start px-22 pt-15">
+      <div className="flex min-h-76 items-start gap-4 px-22 pt-15">
         <Button className="h-18 rounded-lg border-4 border-violet-500 bg-violet-200 px-7 text-base font-medium text-slate-800 hover:bg-violet-200">
           버튼1
+        </Button>
+        <Button className="h-18 rounded-lg border-4 border-amber-500 bg-amber-200 px-7 text-base font-medium text-slate-800 hover:bg-amber-200">
+          버튼2
         </Button>
       </div>
     </section>
