@@ -2,6 +2,8 @@ import { House, Layers3 } from 'lucide-react';
 import { createBrowserRouter, Link, Outlet } from 'react-router';
 import { RouterProvider } from 'react-router/dom';
 
+import { Button } from '@/components/ui/button';
+
 const linkButtonClass =
   'inline-flex h-10 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90';
 
@@ -32,19 +34,13 @@ function Layout() {
 
 function HomePage() {
   return (
-    <section className="space-y-8">
-      <div className="space-y-4">
-        <p className="text-sm font-medium text-primary">Vite + React + React Router</p>
-        <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-6xl">
-          가볍게 시작하는 React SPA
-        </h1>
-        <p className="max-w-2xl text-lg leading-8 text-muted-foreground">
-          라우팅, Tailwind CSS, 기본 UI와 검증 명령만 포함한 범용 보일러플레이트입니다.
-        </p>
+    <section className="overflow-hidden rounded-lg border-4 border-neutral-500 bg-white shadow-sm">
+      <div className="h-9 border-b-4 border-teal-600 bg-teal-400" />
+      <div className="flex min-h-76 items-start px-22 pt-15">
+        <Button className="h-18 rounded-lg border-4 border-violet-500 bg-violet-200 px-7 text-base font-medium text-slate-800 hover:bg-violet-200">
+          버튼1
+        </Button>
       </div>
-      <Link className={linkButtonClass} to="/about">
-        구성 확인
-      </Link>
     </section>
   );
 }
