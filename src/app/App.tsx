@@ -40,7 +40,7 @@ function HomePage() {
         <Button className="h-18 rounded-lg border-4 border-violet-500 bg-violet-200 px-7 text-base font-medium text-slate-800 hover:bg-violet-200">
           버튼1
         </Button>
-        <Button className="h-18 rounded-lg border-4 border-amber-500 bg-amber-200 px-7 text-base font-medium text-slate-800 hover:bg-amber-200">
+        <Button className="h-18 rounded-lg border-4 border-blue-500 bg-blue-200 px-7 text-base font-medium text-slate-800 hover:bg-blue-200">
           버튼2
         </Button>
         <Button className="h-18 rounded-lg border-4 border-emerald-500 bg-emerald-200 px-7 text-base font-medium text-slate-800 hover:bg-emerald-200">
