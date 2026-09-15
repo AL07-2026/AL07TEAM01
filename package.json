@@ -1,55 +1,11 @@
 {
-  "name": "react-spa-boilerplate",
-  "version": "1.0.0",
+  "name": "edupin-assessment-revised",
+  "version": "3.5.0",
   "private": true,
-  "description": "수업과 실무 프로젝트를 위한 Vite 기반 React SPA 보일러플레이트",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "setup": "node scripts/setup.mjs",
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit --pretty false",
-    "lint": "eslint . --max-warnings=0",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "validate": "npm run typecheck && npm run lint && npm run test && npm run build"
-  },
-  "engines": {
-    "node": ">=22.22.2 <23 || >=24.15.0 <25"
-  },
-  "dependencies": {
-    "class-variance-authority": "0.7.1",
-    "clsx": "2.1.1",
-    "lucide-react": "1.27.0",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "react-router": "8.3.0",
-    "tailwind-merge": "3.6.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "10.0.1",
-    "@tailwindcss/vite": "4.3.3",
-    "@testing-library/dom": "10.4.1",
-    "@testing-library/jest-dom": "7.0.0",
-    "@testing-library/react": "16.3.2",
-    "@types/node": "24.13.3",
-    "@types/react": "19.2.17",
-    "@types/react-dom": "19.2.3",
-    "@vitejs/plugin-react": "6.0.4",
-    "eslint": "10.8.0",
-    "eslint-plugin-react-hooks": "7.1.1",
-    "eslint-plugin-react-refresh": "0.5.3",
-    "globals": "17.8.0",
-    "jsdom": "30.0.0",
-    "prettier": "3.9.6",
-    "tailwindcss": "4.3.3",
-    "typescript": "6.0.3",
-    "typescript-eslint": "8.65.0",
-    "vite": "8.1.5",
-    "vitest": "4.1.10"
+    "build": "node tools/build.js",
+    "validate": "node tests/validation.js && node tests/experience-validation.js && node tests/report-copy-validation.js",
+    "test": "npm run validate && npm run build"
   }
 }
